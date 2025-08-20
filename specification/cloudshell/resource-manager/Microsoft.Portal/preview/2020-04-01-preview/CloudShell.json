@@ -878,6 +878,9 @@
             "name": "shellType",
             "modelAsString": true
           }
+        },
+        "vnetSettings": {
+          "$ref": "#/definitions/VnetSettings"
         }
       }
     },
@@ -930,6 +933,28 @@
             "name": "fontStyle",
             "modelAsString": true
           }
+        }
+      }
+    },
+    "VnetSettings": {
+      "description": "Settings for virtual network configuration of the cloud shell.",
+      "type": "object",
+      "properties": {
+        "networkProfileResourceId": {
+          "type": "string",
+          "description": "Resource ID of the network profile for the cloud shell."
+        },
+        "relayNamespaceResourceId": {
+          "type": "string",
+          "description": "Resource ID of the relay namespace for the cloud shell."
+        },
+        "isolatedStorageProfile": {
+          "$ref": "#/definitions/StorageProfile",
+          "description": "Storage profile for isolated networking scenarios."
+        },
+        "location": {
+          "type": "string",
+          "description": "The location of the virtual network resources."
         }
       }
     },

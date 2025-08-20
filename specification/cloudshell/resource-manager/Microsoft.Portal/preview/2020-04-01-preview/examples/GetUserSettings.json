@@ -18,7 +18,17 @@
             "fontSize": "Medium",
             "fontStyle": "Monospace"
           },
-          "preferredShellType": "bash"
+          "preferredShellType": "bash",
+          "vnetSettings": {
+            "networkProfileResourceId": "string",
+            "relayNamespaceResourceId": "string",
+            "isolatedStorageProfile": {
+                "storageAccountResourceId": "string",
+                "fileShareName": "string",
+                "diskSizeInGB": 5
+            },
+            "location": "eastus"
+          }
         }
       }
     }

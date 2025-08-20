@@ -9,7 +9,8 @@
         "preferredLocation": "",
         "storageProfile": {},
         "terminalSettings": {},
-        "preferredShellType": "bash"
+        "preferredShellType": "bash",
+        "vnetSettings": {}
       }
     }
   },
@@ -28,7 +29,17 @@
             "fontSize": "Small",
             "fontStyle": "Monospace"
           },
-          "preferredShellType": "bash"
+          "preferredShellType": "bash",
+          "vnetSettings": {
+            "networkProfileResourceId": "/subscriptions/ae43b1e3-c35d-4c8c-bc0d-f148b4c52b78/resourcegroups/cloud-shell-network/providers/Microsoft.Network/networkProfiles/cloudshell-networkprofile",
+            "relayNamespaceResourceId": "/subscriptions/ae43b1e3-c35d-4c8c-bc0d-f148b4c52b78/resourcegroups/cloud-shell-network/providers/Microsoft.Relay/namespaces/cloudshell-relay",
+            "isolatedStorageProfile": {
+              "storageAccountResourceId": "/subscriptions/ae43b1e3-c35d-4c8c-bc0d-f148b4c52b78/resourcegroups/cloud-shell-storage/providers/Microsoft.Storage/storageAccounts/cloudshellstorage",
+              "fileShareName": "cloudshell-fileshare",
+              "diskSizeInGB": 5
+            },
+            "location": "eastus"
+          }
         }
       }
     }
