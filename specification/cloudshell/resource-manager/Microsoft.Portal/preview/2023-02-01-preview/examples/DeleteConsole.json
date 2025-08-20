@@ -1,0 +1,10 @@
+{
+  "parameters": {
+    "consoleName": "default",
+    "api-version": "2020-04-01-preview"
+  },
+  "responses": {
+    "200": {},
+    "204": {}
+  }
+}
