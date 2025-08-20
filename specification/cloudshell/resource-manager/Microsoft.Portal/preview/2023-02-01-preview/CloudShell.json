@@ -896,6 +896,23 @@
             "name": "networkType",
             "modelAsString": true
           }
+        },
+        "sessionType": {
+          "description": "The session type of storage.",
+          "type": "string",
+          "enum": [
+            "NotSpecified",
+            "Mounted",
+            "Ephemeral"
+          ],
+          "x-ms-enum": {
+            "name": "sessionType",
+            "modelAsString": true
+          }
+        },
+        "userSubscription": {
+          "description": "The user subscription.",
+          "type": "string"
         }
       }
     },

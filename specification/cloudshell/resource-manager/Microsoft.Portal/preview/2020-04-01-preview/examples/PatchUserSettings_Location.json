@@ -11,7 +11,7 @@
         "terminalSettings": {},
         "preferredShellType": "bash",
         "vnetSettings": {},
-        "networkType": ""
+        "networkType": "Isolated"
       }
     }
   },

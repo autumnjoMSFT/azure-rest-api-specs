@@ -27,7 +27,9 @@
           },
           "location": "eastus"
         },
-        "networkType": "Isolated"
+        "networkType": "Isolated",
+        "sessionType": "Mounted",
+        "userSubscription": "string"
       }
     }
   },
@@ -57,7 +59,9 @@
             },
             "location": "eastus"
           },
-          "networkType": "Isolated"
+          "networkType": "Isolated",
+          "sessionType": "Mounted",
+          "userSubscription": "string"
         }
       }
     }

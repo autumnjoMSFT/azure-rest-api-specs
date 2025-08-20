@@ -30,7 +30,9 @@
             },
             "location": "eastus"
           },
-          "networkType": "Isolated"
+          "networkType": "Isolated",
+          "sessionType": "Mounted",
+          "userSubscription": "string"
         }
       }
     }
