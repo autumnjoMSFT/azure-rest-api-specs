@@ -1,7 +1,7 @@
 {
   "parameters": {
     "consoleName": "default",
-    "api-version": "2020-04-01-preview",
+    "api-version": "2023-02-01-preview",
     "parameters": {
       "properties": {
         "osType": "Linux"
