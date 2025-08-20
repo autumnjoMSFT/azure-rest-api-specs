@@ -10,7 +10,8 @@
         "storageProfile": {},
         "terminalSettings": {},
         "preferredShellType": "bash",
-        "vnetSettings": {}
+        "vnetSettings": {},
+        "networkType": ""
       }
     }
   },
@@ -39,7 +40,8 @@
               "diskSizeInGB": 5
             },
             "location": "eastus"
-          }
+          },
+          "networkType": "Isolated"
         }
       }
     }

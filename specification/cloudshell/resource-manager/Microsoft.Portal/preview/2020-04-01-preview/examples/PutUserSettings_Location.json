@@ -26,7 +26,8 @@
             "diskSizeInGB": 5
           },
           "location": "eastus"
-        }
+        },
+        "networkType": "Isolated"
       }
     }
   },
@@ -55,7 +56,8 @@
               "diskSizeInGB": 5
             },
             "location": "eastus"
-          }
+          },
+          "networkType": "Isolated"
         }
       }
     }

@@ -841,7 +841,9 @@
         "preferredLocation",
         "storageProfile",
         "terminalSettings",
-        "preferredShellType"
+        "preferredShellType",
+        "vnetSettings",
+        "networkType"
       ],
       "properties": {
         "preferredOsType": {
@@ -881,6 +883,19 @@
         },
         "vnetSettings": {
           "$ref": "#/definitions/VnetSettings"
+        },
+        "networkType": {
+          "description": "The network type of the cloud shell.",
+          "type": "string",
+          "enum": [
+            "NotSpecified",
+            "Isolated",
+            "Default"
+          ],
+          "x-ms-enum": {
+            "name": "networkType",
+            "modelAsString": true
+          }
         }
       }
     },

@@ -29,7 +29,8 @@
                 "diskSizeInGB": 5
             },
             "location": "eastus"
-          }
+          },
+          "networkType": "Isolated"
         }
       }
     }
