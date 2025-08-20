@@ -1,0 +1,69 @@
+{
+  "parameters": {
+    "userSettingsName": "cloudconsole",
+    "location": "eastus",
+    "api-version": "2023-02-01-preview",
+    "parameters": {
+      "properties": {
+        "preferredOsType": "Linux",
+        "preferredLocation": "eastus",
+        "storageProfile": {
+          "storageAccountResourceId": "string",
+          "fileShareName": "string",
+          "diskSizeInGB": 5
+        },
+        "terminalSettings": {
+          "fontSize": "Medium",
+          "fontStyle": "Monospace"
+        },
+        "preferredShellType": "bash",
+        "vnetSettings": {
+          "networkProfileResourceId": "string",
+          "relayNamespaceResourceId": "string",
+          "isolatedStorageProfile": {
+            "storageAccountResourceId": "string",
+            "fileShareName": "string",
+            "diskSizeInGB": 5
+          },
+          "location": "eastus"
+        },
+        "networkType": "Isolated",
+        "sessionType": "Mounted",
+        "userSubscription": "string"
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "properties": {
+          "preferredOsType": "Linux",
+          "preferredLocation": "eastus",
+          "storageProfile": {
+            "storageAccountResourceId": "string",
+            "fileShareName": "string",
+            "diskSizeInGB": 5
+          },
+          "terminalSettings": {
+            "fontSize": "Medium",
+            "fontStyle": "Monospace"
+          },
+          "preferredShellType": "bash",
+          "vnetSettings": {
+            "networkProfileResourceId": "string",
+            "relayNamespaceResourceId": "string",
+            "isolatedStorageProfile": {
+              "storageAccountResourceId": "string",
+              "fileShareName": "string",
+              "diskSizeInGB": 5
+            },
+            "location": "eastus"
+          },
+          "networkType": "Isolated",
+          "sessionType": "Mounted",
+          "userSubscription": "string"
+        }
+      }
+    }
+  }
+}
