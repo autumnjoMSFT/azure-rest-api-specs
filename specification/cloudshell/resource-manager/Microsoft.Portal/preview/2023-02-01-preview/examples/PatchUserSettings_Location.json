@@ -5,15 +5,7 @@
     "api-version": "2023-02-01-preview",
     "parameters": {
       "properties": {
-        "preferredOsType": "Linux",
-        "preferredLocation": "",
-        "storageProfile": {},
-        "terminalSettings": {},
-        "preferredShellType": "bash",
-        "vnetSettings": {},
-        "networkType": "Isolated",
-        "sessionType": "Mounted",
-        "userSubscription": ""
+        "preferredShellType": "bash"
       }
     }
   },
