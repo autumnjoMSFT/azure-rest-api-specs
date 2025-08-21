@@ -25,7 +25,8 @@
             "fileShareName": "string",
             "diskSizeInGB": 5
           },
-          "location": "eastus"
+          "location": "eastus",
+          "subnetResourceId": "string"
         },
         "networkType": "Isolated",
         "sessionType": "Mounted",
@@ -57,7 +58,8 @@
               "fileShareName": "string",
               "diskSizeInGB": 5
             },
-            "location": "eastus"
+            "location": "eastus",
+            "subnetResourceId": "string"
           },
           "networkType": "Isolated",
           "sessionType": "Mounted",

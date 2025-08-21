@@ -987,6 +987,10 @@
         "location": {
           "type": "string",
           "description": "The location of the virtual network resources."
+        },
+        "subnetResourceId": {
+          "type": "string",
+          "description": "Resource ID of the subnet for the cloud shell virtual network."
         }
       }
     },
